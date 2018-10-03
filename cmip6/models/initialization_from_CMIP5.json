@@ -1,5 +1,8 @@
 {
     "mri-agcm3-2": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -8,12 +11,12 @@
         }, 
         "land": {
             "initializedFrom": ""
-        }, 
-        "toplevel": {
-            "initializedFrom": ""
         }
     }, 
     "mri-esm2-0": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -33,9 +36,6 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }
