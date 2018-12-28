@@ -1,42 +1,42 @@
 {
     "mri-agcm3-2": {
         "toplevel": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-agcm3.2s"
         }, 
         "aerosol": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-agcm3.2s"
         }, 
         "atmos": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-agcm3.2s"
         }, 
         "land": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-agcm3.2s"
         }
     }, 
     "mri-esm2-0": {
         "toplevel": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-esm1"
         }, 
         "aerosol": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-esm1"
         }, 
         "atmos": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-esm1"
         }, 
         "atmoschem": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-esm1"
         }, 
         "land": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-esm1"
         }, 
         "ocean": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-esm1"
         }, 
         "ocnbgchem": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-esm1"
         }, 
         "seaice": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:mri-esm1"
         }
     }
 }
