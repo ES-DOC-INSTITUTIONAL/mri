@@ -1,0 +1,292 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "mri", 
+    "seedingSource": "cmip5:mri-agcm3.2s", 
+    "sourceID": "mri-agcm3-2", 
+    "topic": "atmos", 
+    "content": {
+        "cmip6.atmos.cloud_scheme.overview": {
+            "values": [
+                "Cloud Scheme Attributes / Cloud Overlap : \r\n     other means  maximum-random for LW, random for SW."
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.processes": {
+            "values": [
+                "Other: -"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.convection_coupling": {
+            "values": [
+                "coupled with deep", 
+                "coupled with shallow"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.function_name": {
+            "values": [
+                "Uniform"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.function_order": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.type": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
+            "values": [
+                "Yes"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conservation_method": {
+            "values": [
+                "conservation fixer"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
+            "values": [
+                "Other: total mass, water vapour and cloud water"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_characteristics": {
+            "values": [
+                "semi-Lagrangian"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
+            "values": [
+                "Bi-harmonic diffusion"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.overview": {
+            "values": [
+                "Time Stepping Framework / Scheme Type : semi-implicit semi-Lagrangian\r\nHorizontal Diffusion / Scheme Method : bi-harmonic diffusion\r\n\r\nPrognostic Variables : vapour, cloud water (liquid+solid)"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.prognostic_variables": {
+            "values": [
+                "clouds", 
+                "surface pressure", 
+                "temperature", 
+                "total water", 
+                "wind components"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_boundary_condition": {
+            "values": [
+                "sponge layer"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_heat": {
+            "values": [
+                "0.01hPa"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_wind": {
+            "values": [
+                "0.01hPa"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.calculation_method": {
+            "values": [
+                "non-linear calculation"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.dissipation_scheme": {
+            "values": [
+                "total wave"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.propagation_scheme": {
+            "values": [
+                "linear theory"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.source_mechanisms": {
+            "values": [
+                "linear mountain waves"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.overview": {
+            "values": [
+                "General Attributes / sponge layer : \r\n   Rayleigh Friction is also used."
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.subgrid_scale_orography": {
+            "values": [
+                "effect on drag"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_order": {
+            "values": [
+                "Other: -"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
+            "values": [
+                "spectral"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.basic_approximations": {
+            "values": [
+                "hydrostatic", 
+                "primitive equations"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.model_family": {
+            "values": [
+                "AGCM"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.name": {
+            "values": [
+                "Atmosphere"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.type": {
+            "values": [
+                "Other: present day"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+            "values": [
+                600
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.processes": {
+            "values": [
+                "cloud droplets", 
+                "effect of raindrops", 
+                "effect of snow"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.scheme_name": {
+            "values": [
+                "JMA (2007) and Kawai (2005)     (see below)"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
+            "values": [
+                "liquid rain", 
+                "snow"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.scheme_name": {
+            "values": [
+                "Tiedtke (1993)"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.type": {
+            "values": [
+                "fixed"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.fixed_value": {
+            "values": [
+                1365.0
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.type": {
+            "values": [
+                "fixed"
+            ]
+        }, 
+        "cmip6.atmos.radiation.aerosols": {
+            "values": [
+                "Other: black carbon / soot", 
+                "dust", 
+                "organic", 
+                "sea salt", 
+                "sulphate"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_integration": {
+            "values": [
+                "wide-band model"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
+            "values": [
+                9
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.transport_calculation": {
+            "values": [
+                "layer interaction"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_integration": {
+            "values": [
+                "wide-band model"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
+            "values": [
+                22
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.closure_order": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_name": {
+            "values": [
+                "Mellor-Yamada"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_type": {
+            "values": [
+                "TKE diagnostic"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
+            "values": [
+                "convective momentum transport", 
+                "detrainment", 
+                "entrainment", 
+                "penetrative convection", 
+                "radiative effect of anvils", 
+                "updrafts"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_method": {
+            "values": [
+                "CAPE"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
+            "values": [
+                "Yoshimura"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
+            "values": [
+                "mass-flux"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.overview": {
+            "values": [
+                "JMA (2007) and Kawai (2005) ; JMA (2007) is modified as followings : \r\n  cloud liquid water -> precipitation:\u3000Sundqvist (1978)\r\n  cloud ice -> precipitation: Kawai (2005)\r\n  cloud ice fallout: Kawai (2005)\r\n  evaporation of precipitation: Tiedtke (1993)\r\n\r\nJMA, 2007: Outline of the operational numerical weather prediction at the Japan Meteorological Agency. Japan Meteorological Agency, 196 pp.\r\nKawai, H., 2005: Improvement of a Cloud Ice Fall Scheme in GCM. CAS/JSC WGNE Research Activities in Atmospheric and Oceanic Modelling/WMO, 35, 0411-0412.\r\nSundqvist, H., 1978: A parameterization scheme for non-convective condensation including prediction of cloud water content. Q. J. R. Meteorol. Soc., 104, 677-690.\r\nTiedtke, M., 1993: Representation of Clouds in Large-Scale Models. Mon. Wea. Rev., 121, 3040-3061."
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_method": {
+            "values": [
+                "same as deep (unified)"
+            ]
+        }
+    }
+}

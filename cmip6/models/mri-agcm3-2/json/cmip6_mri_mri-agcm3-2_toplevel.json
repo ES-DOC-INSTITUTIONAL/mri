@@ -1,0 +1,19 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "mri", 
+    "seedingSource": "cmip5:mri-agcm3.2s", 
+    "sourceID": "mri-agcm3-2", 
+    "topic": "toplevel", 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "MRI-AGCM3.2S"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "Mizuta et al. 2012"
+            ]
+        }
+    }
+}

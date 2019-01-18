@@ -1,0 +1,122 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "mri", 
+    "seedingSource": "cmip5:mri-esm1", 
+    "sourceID": "mri-esm2-0", 
+    "topic": "aerosol", 
+    "content": {
+        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "OCS"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.basic_approximations": {
+            "values": [
+                "Ideal gas, primitive equations, external mixture"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.family_approach": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.name": {
+            "values": [
+                "MASINGAR mk-2"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.number_of_tracers": {
+            "values": [
+                20
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.overview": {
+            "values": [
+                "References: Yukimoto et al. 2011;Yukimoto et al. 2012; Adachi et al. 2013"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/volume ratio for aerosols"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "stratosphere", 
+                "troposphere"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep": {
+            "values": [
+                900
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.method": {
+            "values": [
+                "Other: specific time stepping (integrated)"
+            ]
+        }, 
+        "cmip6.aerosol.model.bulk_scheme_species": {
+            "values": [
+                "Black carbon / soot", 
+                "Organic", 
+                "POM (particulate organic matter)", 
+                "SOA (secondary organic aerosols)", 
+                "Sulphate"
+            ]
+        }, 
+        "cmip6.aerosol.model.coupling": {
+            "values": [
+                "Clouds", 
+                "Other: heterogeneouschemistry", 
+                "Other: landsurface", 
+                "Radiation"
+            ]
+        }, 
+        "cmip6.aerosol.model.gas_phase_precursors": {
+            "values": [
+                "DMS", 
+                "SO2", 
+                "Terpene"
+            ]
+        }, 
+        "cmip6.aerosol.model.overview": {
+            "values": [
+                "Coupling With: snow albedo on sea ice\r\nGas Phase Precursors: SO3"
+            ]
+        }, 
+        "cmip6.aerosol.model.processes": {
+            "values": [
+                "Advection (horizontal)", 
+                "Advection (vertical)", 
+                "Ageing", 
+                "Dry deposition", 
+                "Heterogeneous chemistry", 
+                "Oxidation (gas phase)", 
+                "Oxidation (in cloud)", 
+                "Sedimentation", 
+                "Wet deposition (impaction scavenging)", 
+                "Wet deposition (nucleation scavenging)"
+            ]
+        }, 
+        "cmip6.aerosol.model.scheme_type": {
+            "values": [
+                "Bin", 
+                "Bulk"
+            ]
+        }, 
+        "cmip6.aerosol.transport.convention": {
+            "values": [
+                "Convective fluxes connected to tracers", 
+                "Vertical velocities connected to tracers"
+            ]
+        }, 
+        "cmip6.aerosol.transport.mass_conservation_scheme": {
+            "values": [
+                "Concentrations positivity", 
+                "Mass adjustment", 
+                "Other: gradients monotony"
+            ]
+        }
+    }
+}
