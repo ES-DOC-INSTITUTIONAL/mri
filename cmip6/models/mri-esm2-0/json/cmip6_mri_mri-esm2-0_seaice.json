@@ -24,7 +24,7 @@
             "values": [
                 "Sea ice concentration", 
                 "Sea ice thickness", 
-                "Snow depth", 
+                "Snow depth: Snow on ice thickness", 
                 "Sea ice enthalpy", 
                 "Sea ice u-velocity", 
                 "Sea ice v-velocity", 
@@ -115,7 +115,7 @@
         }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
-                "Ocean grid"
+                "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
             ]
         }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid_type": {
@@ -220,7 +220,7 @@
         }, 
         "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
             "values": [
-                "Thermal Fixed Salinity"
+                "Thermal Fixed Salinity: Thermal properties depend on S-T (with fixed salinity)."
             ]
         }, 
         "cmip6.seaice.thermodynamics.energy.fixed_salinity_value": {
