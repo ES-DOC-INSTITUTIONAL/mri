@@ -1,74 +1,75 @@
 {
     "mipEra": "cmip6", 
     "institute": "mri", 
-    "seedingSource": "cmip5:mri-esm1", 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "mri-esm2-0", 
     "topic": "ocean", 
     "content": {
-        "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
+        "cmip6.ocean.key_properties.name": {
             "values": [
-                true
+                "MRI.COM ver. 4.4"
             ]
         }, 
-        "cmip6.ocean.advection.lateral_tracers.name": {
+        "cmip6.ocean.key_properties.overview": {
             "values": [
-                "Prather 2nd moment (PSOM)"
+                "The Meteorological Research Institute Community Ocean Model (MRI.COM) is an original, general-purpose numerical ocean model developed by the Oceanography and Geochemistry Research Department of the Meteorological Research Institude (MRI) for the purpose of scientific research in MRI and operational work in the Japan Meteorological Agency. MRI.COM is a free surface, depth-coordinate ice-ocean coupled model based on the primitive equations under the hydrostatic and Boussinesq approximations. It is formulated on generalized orthogonal curvilinear coordinates and its horizontal grid arrangement is Arakawa's B-grid. Note that coast lines are defined by the periphery of the grid cell centered by the velocity point. The ocean component model of MRI-ESM2.0 adopts Murray's (1996) tripolar grid in horizontal and z* coordinate of Adcroft and Campin (2004) in vertical."
             ]
         }, 
-        "cmip6.ocean.advection.momentum.scheme_name": {
+        "cmip6.ocean.key_properties.model_family": {
             "values": [
-                "Ishizaki and Motoi (1999)"
-            ]
-        }, 
-        "cmip6.ocean.advection.momentum.type": {
-            "values": [
-                "Flux form"
-            ]
-        }, 
-        "cmip6.ocean.advection.vertical_tracers.flux_limiter": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.advection.vertical_tracers.name": {
-            "values": [
-                "Prather 2nd moment (PSOM)"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum.bottom_friction.type": {
-            "values": [
-                "Non-linear"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum.lateral_friction.type": {
-            "values": [
-                "No-slip"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum_flux_correction": {
-            "values": [
-                "No"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.scheme": {
-            "values": [
-                "Other: 2 extinction depths"
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.horizontal.scheme": {
-            "values": [
-                "Other: finite differences"
+                "OGCM"
             ]
         }, 
         "cmip6.ocean.key_properties.basic_approximations": {
             "values": [
                 "Boussinesq", 
                 "Primitive equations"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.prognostic_variables": {
+            "values": [
+                "Potential temperature", 
+                "SSH", 
+                "Salinity", 
+                "U-velocity", 
+                "V-velocity", 
+                "Other: Eddy kinetic energy in the generic length scale scheme ", 
+                "Other: Generic length scale in the generic length scale scheme"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.eos_type": {
+            "values": [
+                "Other: Tsujino et al. 2017; Ishizaki 1994"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.eos_functional_temp": {
+            "values": [
+                "Potential temperature"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.eos_functional_salt": {
+            "values": [
+                "Practical salinity Sp"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.eos_functional_depth": {
+            "values": [
+                "Depth (meters)"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.ocean_freezing_point": {
+            "values": [
+                "Other: Tf = -0.0543 S where Tf is the freezing point in deg C and S is salinity in psu."
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.ocean_specific_heat": {
+            "values": [
+                3990
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.ocean_reference_density": {
+            "values": [
+                1036
             ]
         }, 
         "cmip6.ocean.key_properties.bathymetry.reference_dates": {
@@ -81,19 +82,19 @@
                 true
             ]
         }, 
-        "cmip6.ocean.key_properties.model_family": {
+        "cmip6.ocean.key_properties.bathymetry.ocean_smoothing": {
             "values": [
-                "OGCM"
+                "Nine-point local smoothing is performed on ocean grid points shallower than 100 m that is located north of 64\u00ba N and in the northeastern part of the Bering Sea. A minimal depth is set at 35 m over a coastal region in the Arctic Ocean along the eastern side of the Eurasia Continent. The following channels and straits are manually modified; Kara Strait, Nares Strait, Hell Gate and Cardigan Strait, Fury and Hecla Strait, the Denmark Strait , the Faroe-Shetland Channel, the Sound, the Kerch Strait, the Bosphorus, the Sea of Marmara, the Dardanelles, the Strait of Gibraltar, the Straits of Florida, the Yucatan Channel, the Strait of Tartary, the Tsugaru Strait, the Tsushima Strait, the Makassar Strait, the Vitiaz Strait, the Lombok Strait, the Ombai Strait, the Timor Passage, the Torres Strait, the Bab-el-Mandeb. The following islands are manually modified or created; the Fox Islands, Sakhalin, the Kuril Islands, Hokkaido, Kyushu, Okinawa Island, O\u02bbahu, Gal\u00e1pagos Islands, Luzon, Visayas, Mindanao, Borneo, Sulawesi, Halmahera, the North Island of New Zealand."
             ]
         }, 
-        "cmip6.ocean.key_properties.name": {
+        "cmip6.ocean.key_properties.bathymetry.source": {
             "values": [
-                "MRI.COM ver.3 (MRI.COM3)"
+                "The GEBCO_2014 Grid, version 20141103; JTOPO30v2"
             ]
         }, 
         "cmip6.ocean.key_properties.nonoceanic_waters.isolated_seas": {
             "values": [
-                "No"
+                "Not represented in this ocean model"
             ]
         }, 
         "cmip6.ocean.key_properties.nonoceanic_waters.river_mouth": {
@@ -101,33 +102,139 @@
                 "First, pure water with the same temperature as that of the top layer is added on the top layer, then mixed with the water below with enlarged vertical mixing coefficients (0-30m): 10^(log10(R)+1) m^2/s, where R is the river discharge rate in units of cm/s."
             ]
         }, 
-        "cmip6.ocean.key_properties.overview": {
+        "cmip6.ocean.key_properties.resolution.name": {
             "values": [
-                "References: Tsujino et al. 2010; Yukimoto et al. 2011; Yukimoto et al. 2012"
+                "GONDOLA_100"
             ]
         }, 
-        "cmip6.ocean.key_properties.prognostic_variables": {
+        "cmip6.ocean.key_properties.resolution.canonical_horizontal_resolution": {
             "values": [
-                "Potential temperature", 
-                "SSH", 
-                "Salinity", 
-                "U-velocity", 
-                "V-velocity"
+                "100km"
             ]
         }, 
-        "cmip6.ocean.key_properties.seawater_properties.ocean_freezing_point": {
+        "cmip6.ocean.key_properties.resolution.range_horizontal_resolution": {
             "values": [
-                "Other: varying"
+                "0.3(Equator)-0.5 degrees in latitude and 1 degree in longitude"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
+        "cmip6.ocean.key_properties.resolution.number_of_horizontal_gridpoints": {
             "values": [
-                "0"
+                "=360*362"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
+        "cmip6.ocean.key_properties.resolution.number_of_vertical_levels": {
             "values": [
-                "Time + space varying (Smagorinsky)"
+                61
+            ]
+        }, 
+        "cmip6.ocean.key_properties.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.key_properties.resolution.thickness_level_1": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.ocean.key_properties.tuning_applied.description": {
+            "values": [
+                "The model is tuned so as to improve its representation of the Atlantic meridional overturning circulation (MOC), the Pacific MOC and the Antarctic Circumpolar Current (ACC) transport in an experiment under OMIP protocol by changing parameters associated with mesoscale eddy parameterizations."
+            ]
+        }, 
+        "cmip6.ocean.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Atlantic MOC, Pacific MOC, ACC transport"
+            ]
+        }, 
+        "cmip6.ocean.grid.discretisation.vertical.coordinates": {
+            "values": [
+                "Z*-coordinate"
+            ]
+        }, 
+        "cmip6.ocean.grid.discretisation.vertical.partial_steps": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocean.grid.discretisation.horizontal.type": {
+            "values": [
+                "Two north poles (ORCA-style)"
+            ]
+        }, 
+        "cmip6.ocean.grid.discretisation.horizontal.staggering": {
+            "values": [
+                "Arakawa B-grid"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.diurnal_cycle": {
+            "values": [
+                "Via coupling"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.tracers.scheme": {
+            "values": [
+                "Other: Leap-frog + periodic Euler backward"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.tracers.time_step": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.baroclinic_dynamics.scheme": {
+            "values": [
+                "Other: Leap-frog + periodic Euler backward"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.baroclinic_dynamics.time_step": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.barotropic.splitting": {
+            "values": [
+                "Split explicit"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.barotropic.time_step": {
+            "values": [
+                60
+            ]
+        }, 
+        "cmip6.ocean.advection.momentum.type": {
+            "values": [
+                "Flux form"
+            ]
+        }, 
+        "cmip6.ocean.advection.momentum.scheme_name": {
+            "values": [
+                "Ishizaki and Motoi (1999)"
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.name": {
+            "values": [
+                "PRATHER"
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.passive_tracers": {
+            "values": [
+                "Ideal age"
+            ]
+        }, 
+        "cmip6.ocean.advection.vertical_tracers.name": {
+            "values": [
+                "PRATHER"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.scheme": {
+            "values": [
+                "None"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.direction": {
@@ -135,34 +242,34 @@
                 "Horizontal"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
-            "values": [
-                "Second order"
-            ]
-        }, 
         "cmip6.ocean.lateral_physics.momentum.operator.order": {
             "values": [
                 "Harmonic"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.constant_coefficient": {
+        "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
             "values": [
-                1000
+                "Second order"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
             "values": [
-                "Constant"
+                "Time + space varying (Smagorinsky)"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.variable_coefficient": {
             "values": [
-                "Skew flux"
+                "Smagorinsky (C = 4.0)"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
             "values": [
-                "GM"
+                "0"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_backscatter": {
+            "values": [
+                false
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.mesoscale_closure": {
@@ -170,14 +277,14 @@
                 true
             ]
         }, 
+        "cmip6.ocean.lateral_physics.tracers.submesoscale_mixing": {
+            "values": [
+                false
+            ]
+        }, 
         "cmip6.ocean.lateral_physics.tracers.operator.direction": {
             "values": [
                 "Isoneutral"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
-            "values": [
-                "Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.operator.order": {
@@ -185,19 +292,69 @@
                 "Harmonic"
             ]
         }, 
-        "cmip6.ocean.timestepping_framework.tracers.scheme": {
+        "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
             "values": [
-                "Other: leap-frog + periodic euler backward solver"
+                "Second order"
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.sill_overflow": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
             "values": [
-                "No specific treatment"
+                "Constant"
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.constant_coefficient": {
             "values": [
-                "Other: advective"
+                1500
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.coeff_background": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.coeff_backscatter": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
+            "values": [
+                "GM"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {
+            "values": [
+                "Skew flux"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.details.langmuir_cells_mixing": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
+            "values": [
+                "constant 1e-4 except for 0.5 at the Strait of Gibraltar"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.details.convection_type": {
+            "values": [
+                "Enhanced vertical diffusion"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.details.tide_induced_mixing": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.details.double_diffusion": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.momentum.type": {
+            "values": [
+                "Constant value"
             ]
         }, 
         "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
@@ -205,39 +362,54 @@
                 "Non-linear semi-explicit"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
+        "cmip6.ocean.uplow_boundaries.free_surface.embeded_seaice": {
             "values": [
-                "1x10^(-5)  uniform"
+                false
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.background": {
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.overview": {
             "values": [
-                "1x10^(-5) (0m) - 2.7x10^(-4) (6300m)"
+                "Nakano and Suginohara, 2002"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.details.convection_type": {
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
             "values": [
-                "Non-penetrative convective adjustment"
+                "Acvective"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.momentum.constant": {
+        "cmip6.ocean.boundary_forcing.geothermal_heating": {
             "values": [
-                1
+                "The geothermal heat is not imposed in this model."
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.momentum.type": {
+        "cmip6.ocean.boundary_forcing.momentum.bottom_friction.type": {
             "values": [
-                "Other: constant values"
+                "Non-linear"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.tracers.type": {
+        "cmip6.ocean.boundary_forcing.momentum.lateral_friction.type": {
             "values": [
-                "Other: constant values"
+                "No-slip"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.overview": {
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.scheme": {
             "values": [
-                "General Attributes / Tide-induced Mixing : \r\n    The tidally driven mixing is applied around the Kuril Islands and the Sea of Okhotsk."
+                "2 extinction depth"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.from_atmopshere": {
+            "values": [
+                "Freshwater flux"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.from_sea_ice": {
+            "values": [
+                "Freshwater flux"
             ]
         }
     }

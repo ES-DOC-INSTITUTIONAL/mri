@@ -1,13 +1,24 @@
 {
     "mipEra": "cmip6", 
     "institute": "mri", 
-    "seedingSource": "cmip5:mri-esm1", 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "mri-esm2-0", 
     "topic": "aerosol", 
     "content": {
-        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
+        "cmip6.aerosol.key_properties.name": {
             "values": [
-                "OCS"
+                "MASINGAR mk-2r4c"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.overview": {
+            "values": [
+                "Model of Aerosol Species in the Global Atmosphere mark-2 revision 4-climate (MASINGAR mk-2r4c) treats atmospheric aerosol physical and chemical processes (e.g., emission, transport, diffusion, chemical reactions, and dry and wet depositions) and includes the following species: non-sea-salt sulfate, black carbon, organic carbon, sea salt, mineral dust, and aerosol precursor gases (e.g., sulfur dioxide and dimethyl sulfide).\n\nReferences: Tanaka et al. 2003; Yukimoto et al. submitted; Oshima et al., in preparation\n"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "Stratosphere", 
+                "Troposphere"
             ]
         }, 
         "cmip6.aerosol.key_properties.basic_approximations": {
@@ -15,35 +26,44 @@
                 "Ideal gas, primitive equations, external mixture"
             ]
         }, 
-        "cmip6.aerosol.key_properties.family_approach": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.name": {
-            "values": [
-                "MASINGAR mk-2"
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.number_of_tracers": {
-            "values": [
-                20
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.overview": {
-            "values": [
-                "References: Yukimoto et al. 2011;Yukimoto et al. 2012; Adachi et al. 2013"
-            ]
-        }, 
         "cmip6.aerosol.key_properties.prognostic_variables_form": {
             "values": [
                 "3D mass/volume ratio for aerosols"
             ]
         }, 
-        "cmip6.aerosol.key_properties.scheme_scope": {
+        "cmip6.aerosol.key_properties.number_of_tracers": {
             "values": [
-                "stratosphere", 
-                "troposphere"
+                37
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.family_approach": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_version": {
+            "values": [
+                "masingar_mk2r4_ESM2"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran 95"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.method": {
+            "values": [
+                "Specific timestepping (operator splitting)"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.split_operator_advection_timestep": {
+            "values": [
+                900
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.split_operator_physical_timestep": {
+            "values": [
+                900
             ]
         }, 
         "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep": {
@@ -51,38 +71,266 @@
                 900
             ]
         }, 
-        "cmip6.aerosol.key_properties.timestep_framework.method": {
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_scheme_type": {
             "values": [
-                "Other: specific time stepping (integrated)"
+                "Back Euler"
             ]
         }, 
-        "cmip6.aerosol.model.bulk_scheme_species": {
+        "cmip6.aerosol.key_properties.meteorological_forcings.variables_3D": {
             "values": [
-                "Black carbon / soot", 
-                "Organic", 
-                "POM (particulate organic matter)", 
-                "SOA (secondary organic aerosols)", 
-                "Sulphate"
+                "U, V, T, Q, divergence, cloud droplet to rain conversion rate (convective cloud), cloud droplet to rain conversion rate (large-scale cloud), rain to vapor (convective cloud), rain to vapor (large-scale cloud), RH, organized entrainment rate, organized detrainment rate, upward mass flux in cumulus, cloud water content in cumulus, conversion from cloud water to precipitation in cumulus, cloud water content, cloud cover, eddy diffusion coefficient, ozone\n"
             ]
         }, 
-        "cmip6.aerosol.model.coupling": {
+        "cmip6.aerosol.key_properties.meteorological_forcings.variables_2D": {
             "values": [
-                "Clouds", 
-                "Other: heterogeneouschemistry", 
-                "Other: landsurface", 
-                "Radiation"
+                "SST, U(10m), V(10m), T(2m), Q(2m), zonal surface stress, meridional surface stress, friction velocity, sea ice fraction, roughness length, convective precipitation, large-scale precipitation, sensible heat flux, latent heat flux, ground temperature, snow cover, soil ice, vegetation cover (canopy), vegetation cover (grass), LAI (canopy), LAI (grass), volumetric soil water content, landmask type definitions, land-sea mask ratio, surface pressure, longitude derivative of surface pressure, latitude derivative of surface pressure"
             ]
         }, 
-        "cmip6.aerosol.model.gas_phase_precursors": {
+        "cmip6.aerosol.key_properties.meteorological_forcings.frequency": {
             "values": [
-                "DMS", 
-                "SO2", 
-                "Terpene"
+                3600
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.name": {
+            "values": [
+                "TL95L80"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "180km or 1.875 degree"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                18432
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.number_of_vertical_levels": {
+            "values": [
+                80
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.description": {
+            "values": [
+                "No tuning."
+            ]
+        }, 
+        "cmip6.aerosol.grid.name": {
+            "values": [
+                "TL95L80"
+            ]
+        }, 
+        "cmip6.aerosol.grid.overview": {
+            "values": [
+                "Horizontal: Gaussian grids of 192 x 96 in longitude and latitude (approximately 180 km or 1.875 degree)\n\nVertical: sigma-pressure hybrid coordinate with 80 vertical layers up to the 0.01 hPa lavel (same as the atmospheric model)"
+            ]
+        }, 
+        "cmip6.aerosol.grid.matches_atmosphere_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.name": {
+            "values": [
+                "TL95L80"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "180km or 1.875 degree"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                18432
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.number_of_vertical_levels": {
+            "values": [
+                80
+            ]
+        }, 
+        "cmip6.aerosol.transport.overview": {
+            "values": [
+                "Grid-scale transport: \n   Vertically conservative semi-Lagrangian scheme\n\nSubgrid-scale transport/mixing:\n   Vertical mixing due to turbulence\n   Vertical transport due to (deep) convection"
+            ]
+        }, 
+        "cmip6.aerosol.transport.scheme": {
+            "values": [
+                "Specific transport scheme (semi-lagrangian)"
+            ]
+        }, 
+        "cmip6.aerosol.transport.mass_conservation_scheme": {
+            "values": [
+                "Concentrations positivity", 
+                "Mass adjustment", 
+                "Gradients monotonicity"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.overview": {
+            "values": [
+                "Anthropogenic and biomass burning emissions (SO2, BC, OC) from the surface are obtained from the CMIP6 forcing data.\nAircraft emissions (SO2, BC, OC) in 3-D grids are obtained from the CMIP6 forcing data.\nSulfur species originating from natural source and sea salt and dust are interactively calculated in the model.\nSO2 originating from continuous volcanic eruptions are calculated from the Global Emissions Inventory Activity database SO2 emission inventory (Andres and Kasgnoc 1998). \n"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.method": {
+            "values": [
+                "Interactive"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.sources": {
+            "values": [
+                "Volcanos", 
+                "Bare ground", 
+                "Sea surface", 
+                "Fires", 
+                "Aircraft", 
+                "Anthropogenic"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_climatology": {
+            "values": [
+                "Constant"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "SO2 from continuously degassing volcanoes"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_spatially_uniform_emitted_species": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.interactive_emitted_species": {
+            "values": [
+                "Mineral dust, sea salt, dimethyl sulfide from the ocean"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.overview": {
+            "values": [
+                "Aerosol concentrations are calculated by aerosol physical and chemical processes (e.g., emission, transport, diffusion, chemical reactions, and dry and wet depositions) in the aerosol model."
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "OCS"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_fields_mmr": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.overview": {
+            "values": [
+                "Aerosol optical and radiative properties are calculated in the aerosol-radiation scheme in the atmospheric model using mass concentrations of aerosols, which are provided by the aerosol model. Descriptions shown in below are used in the atmospheric model.\n"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.black_carbon": {
+            "values": [
+                -0.79
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.dust": {
+            "values": [
+                -0.0055
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.organics": {
+            "values": [
+                -0.006
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.external": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.internal": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.mixing_rule": {
+            "values": [
+                "Core-shell aerosol treatment for hydrophilic-BC/SO4 mixture, volume-weighted averaging for other aerosol species"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.size": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.internal_mixture": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.external_mixture": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.overview": {
+            "values": [
+                "Radiation is calculated in the atmospheric model and there is no radiative scheme in the aerosol model. Descriptions shown in below are used in the atmospheric model."
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.shortwave_bands": {
+            "values": [
+                22
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.longwave_bands": {
+            "values": [
+                11
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.overview": {
+            "values": [
+                "Aerosol-cloud interactions are calculated in the atmospheric model and there is no aerosol-cloud interaction scheme in the aerosol model. Descriptions shown in below are used in the atmospheric model."
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey_minimum_ccn": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.drizzle": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.cloud_lifetime": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.model.name": {
+            "values": [
+                "MASINGAR"
             ]
         }, 
         "cmip6.aerosol.model.overview": {
             "values": [
-                "Coupling With: snow albedo on sea ice\r\nGas Phase Precursors: SO3"
+                "MASINGAR (Model of Aerosol Species IN the Global AtmospheRe) treats the main five aerosol species (sulfates, organic aerosols, black carbon, sea salt, and mineral dust) and their precursors. It is developed in the Meteorological Research Institute (MRI) of Japan Meteorological Agency and used for the aerosol forecasting and climate researches. Log-normal size distributions are assumed for sulfates, BC, and OA, and size-bin method is used for the sea salt and mineral dust. Precursor gases of sulfates include dimethyl sulfide, sulfur dioxide, and sulfur trioxide, and oxidized to sulfates via gas- and aqueous-phase reactions. Oxidants of sulfur reactions include OH, NO2, O3, and provided by the chemistry model MRI-CCM2. BC and OA are separated into hydrophobic and hydrophilic particles and their conversion rate is calculated based on the abundance of sulfates. Aerosol concentrations are passed to the atmospheric model MRI-AGCM and aerosol-radiation and aerosol-cloud interactions are calculated in the atmospheric model. Deposition fluxes of the light absorbing aerosols (BC and mineral dust) are also passed to the atmospheric model and used for the calculation of snow darkening effect of snow and sea ice."
             ]
         }, 
         "cmip6.aerosol.model.processes": {
@@ -96,26 +344,30 @@
                 "Oxidation (in cloud)", 
                 "Sedimentation", 
                 "Wet deposition (impaction scavenging)", 
-                "Wet deposition (nucleation scavenging)"
+                "Wet deposition (nucleation scavenging)", 
+                "Condensation"
+            ]
+        }, 
+        "cmip6.aerosol.model.coupling": {
+            "values": [
+                "Radiation", 
+                "Land surface", 
+                "Heterogeneous chemistry", 
+                "Clouds", 
+                "Cryosphere"
+            ]
+        }, 
+        "cmip6.aerosol.model.gas_phase_precursors": {
+            "values": [
+                "DMS", 
+                "SO2", 
+                "Terpene"
             ]
         }, 
         "cmip6.aerosol.model.scheme_type": {
             "values": [
                 "Bin", 
                 "Bulk"
-            ]
-        }, 
-        "cmip6.aerosol.transport.convention": {
-            "values": [
-                "Convective fluxes connected to tracers", 
-                "Vertical velocities connected to tracers"
-            ]
-        }, 
-        "cmip6.aerosol.transport.mass_conservation_scheme": {
-            "values": [
-                "Concentrations positivity", 
-                "Mass adjustment", 
-                "Other: gradients monotony"
             ]
         }
     }
