@@ -2,17 +2,17 @@
     "mipEra": "cmip6", 
     "institute": "mri", 
     "seedingSource": "Spreadsheet", 
-    "sourceID": "mri-esm2-0", 
+    "sourceID": "mri-agcm3-2-h", 
     "topic": "toplevel", 
     "content": {
         "cmip6.toplevel.key_properties.name": {
             "values": [
-                "MRI-ESM1"
+                "MRI-AGCM3.2S"
             ]
         }, 
         "cmip6.toplevel.key_properties.overview": {
             "values": [
-                "-Regional metrics of the mean state_x000D_\n  Meridional distribution in zonal-mean shortwave and longwave fluxes at TOA_x000D_\n          RMSE of geographical distribution of precipitation"
+                "Mizuta et al. 2012"
             ]
         }
     }

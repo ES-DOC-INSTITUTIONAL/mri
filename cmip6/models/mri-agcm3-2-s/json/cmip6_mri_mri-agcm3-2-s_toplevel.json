@@ -1,0 +1,39 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "mri", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "mri-agcm3-2-s", 
+    "topic": "toplevel", 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "MRI-AGCM3.2S"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "Mizuta et al. 2012"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.year_released": {
+            "values": [
+                2009
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_parent": {
+            "values": [
+                "MRI-AGCM3.2S"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_differences": {
+            "values": [
+                "MRI-AGCM3.2 in CMIP6 is exactly the same model as MRI-AGCM3.2S and MRI-AGCM3.2H in CMIP5. The identifier \"S\" and \"H\" were used for the AGCM horizontal resolution of 20km and 60km. "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran90"
+            ]
+        }
+    }
+}
