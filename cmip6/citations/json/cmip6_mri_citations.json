@@ -1,0 +1,28 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "mri", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "Mizuta et al. (2012)", 
+            "doi": "doi:10.2151/jmsj.2012-A12", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Yukimoto et al. (2012)", 
+            "doi": "doi:10.2151/jmsj.2012-A02", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Yukimoto et al. (2011)", 
+            "doi": "doi:10.11483/mritechrepo.64", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }
+    ]
+}
