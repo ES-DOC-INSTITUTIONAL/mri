@@ -1,0 +1,8 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "mri", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "mri-agcm3-2-h", 
+    "topic": "aerosol", 
+    "content": {}
+}
