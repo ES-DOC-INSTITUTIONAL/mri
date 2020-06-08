@@ -5,14 +5,146 @@
     "sourceID": "mri-esm2-0", 
     "topic": "toplevel", 
     "content": {
-        "cmip6.toplevel.key_properties.name": {
+        "cmip6.toplevel.radiative_forcings.overview": {
             "values": [
-                "MRI-ESM1"
+                "GHG (CO2, CH4, N2O, CFC11, CFC12, HCFC22), aerosols (sulfate, OC, BC), aerosol-radiation interaction, aerosol-cloud interaction for liquid and ice clouds, land-use, stratospheric and tropospheric ozone, stratospheric aerosols, solar (radiative and particle forcings)"
             ]
         }, 
-        "cmip6.toplevel.key_properties.overview": {
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
             "values": [
-                "-Regional metrics of the mean state_x000D_\n  Meridional distribution in zonal-mean shortwave and longwave fluxes at TOA_x000D_\n          RMSE of geographical distribution of precipitation"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
+            "values": [
+                "ES: Surface emissions (and 3-D concentrations away from the surface) derived via the model from the prescribed surface concentration"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
+            "values": [
+                "ES: Surface emissions (and 3-D concentrations away from the surface) derived via the model from the prescribed surface concentration"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.equivalence_concentration": {
+            "values": [
+                "Option 2: CFC-12 is provided as actual concentrations and any other gases are provided as an equivalence concentration of CFC-11"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
+            "values": [
+                "N/A: Not applicable - forcing agent is not included"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.RFaci_from_sulfate_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type B: Explosive volcanic aerosol returns rapidly to constant (average volcano)"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type D: Explosive volcanic aerosol set to zero"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type B: Explosive volcanic aerosol returns rapidly to constant (average volcano)"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type D: Explosive volcanic aerosol set to zero"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.crop_change_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.solar.provision": {
+            "values": [
+                "irradiance: Solar irradiance forcing", 
+                "proton: Proton pathway to solar forcing", 
+                "electron: Electron pathway to solar forcing"
             ]
         }
     }

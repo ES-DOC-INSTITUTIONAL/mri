@@ -5,102 +5,44 @@
     "sourceID": "mri-esm2-0", 
     "topic": "aerosol", 
     "content": {
-        "cmip6.aerosol.key_properties.name": {
+        "cmip6.aerosol.grid.name": {
             "values": [
-                "MASINGAR mk-2"
+                "TL95L80"
             ]
         }, 
-        "cmip6.aerosol.key_properties.overview": {
+        "cmip6.aerosol.grid.overview": {
             "values": [
-                "References: Yukimoto et al. 2011;Yukimoto et al. 2012; Adachi et al. 2013"
+                "Horizontal: Gaussian grids of 192 x 96 in longitude and latitude (approximately 180 km or 1.875 degree)\n\nVertical: sigma-pressure hybrid coordinate with 80 vertical layers up to the 0.01 hPa lavel (same as the atmospheric model)"
             ]
         }, 
-        "cmip6.aerosol.key_properties.scheme_scope": {
+        "cmip6.aerosol.grid.matches_atmosphere_grid": {
             "values": [
-                "Stratosphere", 
-                "Troposphere"
+                false
             ]
         }, 
-        "cmip6.aerosol.key_properties.basic_approximations": {
+        "cmip6.aerosol.grid.resolution.name": {
             "values": [
-                "Ideal gas, primitive equations, external mixture"
+                "TL95L80"
             ]
         }, 
-        "cmip6.aerosol.key_properties.prognostic_variables_form": {
+        "cmip6.aerosol.grid.resolution.canonical_horizontal_resolution": {
             "values": [
-                "3D mass/volume ratio for aerosols"
+                "180km or 1.875 degree"
             ]
         }, 
-        "cmip6.aerosol.key_properties.number_of_tracers": {
+        "cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints": {
             "values": [
-                20
+                18432
             ]
         }, 
-        "cmip6.aerosol.key_properties.family_approach": {
+        "cmip6.aerosol.grid.resolution.number_of_vertical_levels": {
             "values": [
-                true
+                80
             ]
         }, 
-        "cmip6.aerosol.key_properties.timestep_framework.method": {
+        "cmip6.aerosol.grid.resolution.is_adaptive_grid": {
             "values": [
-                "Other: specific time stepping (integrated)"
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep": {
-            "values": [
-                900
-            ]
-        }, 
-        "cmip6.aerosol.transport.mass_conservation_scheme": {
-            "values": [
-                "Concentrations positivity", 
-                "Mass adjustment", 
-                "Other: gradients monotony"
-            ]
-        }, 
-        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
-            "values": [
-                "OCS"
-            ]
-        }, 
-        "cmip6.aerosol.model.overview": {
-            "values": [
-                "Coupling With: snow albedo on sea ice_x000D_\nGas Phase Precursors: SO3"
-            ]
-        }, 
-        "cmip6.aerosol.model.processes": {
-            "values": [
-                "Advection (horizontal)", 
-                "Advection (vertical)", 
-                "Ageing", 
-                "Dry deposition", 
-                "Heterogeneous chemistry", 
-                "Oxidation (gas phase)", 
-                "Oxidation (in cloud)", 
-                "Sedimentation", 
-                "Wet deposition (impaction scavenging)", 
-                "Wet deposition (nucleation scavenging)"
-            ]
-        }, 
-        "cmip6.aerosol.model.coupling": {
-            "values": [
-                "Clouds", 
-                "Other: heterogeneouschemistry", 
-                "Other: landsurface", 
-                "Radiation"
-            ]
-        }, 
-        "cmip6.aerosol.model.gas_phase_precursors": {
-            "values": [
-                "DMS", 
-                "SO2", 
-                "Terpene"
-            ]
-        }, 
-        "cmip6.aerosol.model.scheme_type": {
-            "values": [
-                "Bin", 
-                "Bulk"
+                false
             ]
         }
     }

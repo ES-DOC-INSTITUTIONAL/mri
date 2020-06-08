@@ -5,64 +5,30 @@
     "sourceID": "mri-esm2-0", 
     "topic": "ocnbgchem", 
     "content": {
-        "cmip6.ocnbgchem.key_properties.name": {
-            "values": [
-                "Ocean Biogeo Chemistry (MRI.COM3)"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.prognostic_variables": {
-            "values": [
-                "Nitrate, Phosphate, Phytoplankton, Zooplankton, Detritus, Total CO2, Alkalinity, Oxygen"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.time_stepping_framework.passive_tracers_transport.method": {
-            "values": [
-                "Use ocean model transport time step"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_type": {
-            "values": [
-                "Other: wanninkhof"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_type": {
-            "values": [
-                "Other: wanninkhof"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.carbon_chemistry.ph_scale": {
-            "values": [
-                "Sea water"
-            ]
-        }, 
         "cmip6.ocnbgchem.tracers.sulfur_cycle_present": {
             "values": [
-                true
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.nutrients_present": {
+            "values": [
+                "Nitrogen (N)", 
+                "Phosphorous (P)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.nitrous_species_if_N": {
+            "values": [
+                "Nitrates (NO3)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.ecosystem.upper_trophic_levels_definition": {
+            "values": [
+                "No upper trophic level model is included."
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.ecosystem.upper_trophic_levels_treatment": {
+            "values": [
+                "No upper trophic level model is included."
             ]
         }, 
         "cmip6.ocnbgchem.tracers.ecosystem.phytoplankton.type": {
@@ -75,12 +41,38 @@
                 "Generic"
             ]
         }, 
+        "cmip6.ocnbgchem.tracers.disolved_organic_matter.bacteria_present": {
+            "values": [
+                false
+            ]
+        }, 
         "cmip6.ocnbgchem.tracers.disolved_organic_matter.lability": {
             "values": [
-                "Other: no"
+                "None"
             ]
         }, 
         "cmip6.ocnbgchem.tracers.particules.method": {
+            "values": [
+                "Diagnostic (Martin profile)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.particules.types_if_prognostic": {
+            "values": [
+                "POC", 
+                "PIC (calcite)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.dic_alkalinity.carbon_isotopes": {
+            "values": [
+                "C14)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.dic_alkalinity.abiotic_carbon": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.dic_alkalinity.alkalinity": {
             "values": [
                 "Prognostic"
             ]

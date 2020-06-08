@@ -5,79 +5,69 @@
     "sourceID": "mri-esm2-0", 
     "topic": "seaice", 
     "content": {
-        "cmip6.seaice.key_properties.name": {
-            "values": [
-                "Sea Ice (MRI.COM3)"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.variables.prognostic": {
-            "values": [
-                "Other: concentration, ice thickness, snow thickness, ice temperature, horizontal velocity"
-            ]
-        }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
-                "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
+                "Ocean grid"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.grid_type": {
+            "values": [
+                "Structured grid"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.scheme": {
+            "values": [
+                "Finite differences"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.thermodynamics_time_step": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.dynamics_time_step": {
+            "values": [
+                60
             ]
         }, 
         "cmip6.seaice.grid.discretisation.vertical.layering": {
             "values": [
-                "Other: 5"
+                "Other: One-layer"
             ]
         }, 
-        "cmip6.seaice.dynamics.overview": {
+        "cmip6.seaice.grid.seaice_categories.has_mulitple_categories": {
             "values": [
-                "General Attributes / advection : MPDATA"
+                true
             ]
         }, 
-        "cmip6.seaice.dynamics.transport_in_thickness_space": {
+        "cmip6.seaice.grid.seaice_categories.number_of_categories": {
             "values": [
-                "Other: linear remapping"
+                5
             ]
         }, 
-        "cmip6.seaice.dynamics.ice_strength_formulation": {
+        "cmip6.seaice.grid.seaice_categories.category_limits": {
             "values": [
-                "Other: hibler(1979) type"
+                "6.0E-1, 1.4E0, 2.4E0, 3.6E0, 3.0E1 in m"
             ]
         }, 
-        "cmip6.seaice.dynamics.redistribution": {
+        "cmip6.seaice.grid.seaice_categories.ice_thickness_distribution": {
             "values": [
-                "Ridging"
+                "Lipscomb (2001) thickness category scheme based on the formulation of Thorndike et al. (1975) as in CICE."
             ]
         }, 
-        "cmip6.seaice.thermodynamics.overview": {
+        "cmip6.seaice.grid.snow_on_seaice.has_snow_on_ice": {
             "values": [
-                "General attributes / surface albedo: _x000D_\nThe formulation of sea-ice surface albedo is fundamentally similar to that in the Los Alamos sea ice model CICE (Hunke and Lipscomb, 2001). Both the ice albedo and the snow albedo are estimated. The sea-ice surface albedo is determined as an average weighted by the snow cover percentage, which depends on the snow amount. However, the parameterization of Aoki and Tanaka (2008), who account for the albedo decline due to pollution by aerosol deposition, is applied to the estimation of snow albedo. Moreover, the effect of permeation on albedo is taken into account for both ice and snow for visible and near-infrared wavelengths, respectively."
+                true
             ]
         }, 
-        "cmip6.seaice.thermodynamics.energy.heat_diffusion": {
+        "cmip6.seaice.grid.snow_on_seaice.number_of_snow_levels": {
             "values": [
-                "Other: one layer"
+                1
             ]
         }, 
-        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
+        "cmip6.seaice.grid.snow_on_seaice.snow_fraction": {
             "values": [
-                "Other: parametrized (calculated in seaice)"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
-            "values": [
-                "Sea ice is formed when sea surface temperature (temperature of the top layer of the ocean model) is below freezing point. The heat needed to raise the temperature to the freezing point is regarded as the latent heat release through the sea ice formation."
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.melt_ponds.formulation": {
-            "values": [
-                "Other: no"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.snow_processes.redistribution": {
-            "values": [
-                "Snow-ice"
-            ]
-        }, 
-        "cmip6.seaice.radiative_processes.surface_albedo": {
-            "values": [
-                "Other: it depends on amounts (depths) of ice or snow, temperature, and pollution due to aerosol deposition. see also additional information. this is calculated on atmospheric grid."
+                "Snow fraction: f=h_snow/(h_snow+h_snowpatch), where h_snow is snow thickness and h_snowpatch =0.02 m, following CICE."
             ]
         }
     }
