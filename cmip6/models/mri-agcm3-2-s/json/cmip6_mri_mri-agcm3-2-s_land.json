@@ -4,5 +4,189 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "mri-agcm3-2-s", 
     "topic": "land", 
-    "content": {}
+    "content": {
+        "cmip6.land.key_properties.name": {
+            "values": [
+                "SiB0109"
+            ]
+        }, 
+        "cmip6.land.key_properties.overview": {
+            "values": [
+                "Hirai et al. 2007; Yukimoto et al. 2011;Yukimoto et al. 2012"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover": {
+            "values": [
+                "Other: ice", 
+                "Bare soil", 
+                "Vegetated"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.structure": {
+            "values": [
+                "It depends on the vegetation type(SiB)."
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.texture": {
+            "values": [
+                "It depends on the vegetation type(SiB)."
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.albedo": {
+            "values": [
+                "It depends on the vegetation type(SiB)."
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.water_table": {
+            "values": [
+                "It depends on the vegetation type(SiB)."
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.method": {
+            "values": [
+                "Explicit diffusion"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.number_of_ground_ice_layers": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.ice_storage_method": {
+            "values": [
+                "If the temperature is lower than the freezing point, the phase change occurs."
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.heat_storage": {
+            "values": [
+                "Explicit diffusion"
+            ]
+        }, 
+        "cmip6.land.snow.number_of_snow_layers": {
+            "values": [
+                4
+            ]
+        }, 
+        "cmip6.land.snow.density": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.water_equivalent": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.heat_content": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.temperature": {
+            "values": [
+                "Diagnostic"
+            ]
+        }, 
+        "cmip6.land.snow.liquid_water_content": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.snow_cover_fractions": {
+            "values": [
+                "Ground snow fraction", 
+                "Vegetation snow fraction"
+            ]
+        }, 
+        "cmip6.land.snow.processes": {
+            "values": [
+                "Other: snow refreezing", 
+                "Snow interception", 
+                "Snow melting"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.type": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_representation": {
+            "values": [
+                "Vegetation types"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_types": {
+            "values": [
+                "C3 grass", 
+                "Broadleaf tree", 
+                "Needleleaf tree"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_time_variation": {
+            "values": [
+                "Fixed (not varying)"
+            ]
+        }, 
+        "cmip6.land.vegetation.interception": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.vegetation.phenology": {
+            "values": [
+                "Diagnostic (vegetation map)"
+            ]
+        }, 
+        "cmip6.land.vegetation.leaf_area_index": {
+            "values": [
+                "Prescribed"
+            ]
+        }, 
+        "cmip6.land.vegetation.stomatal_resistance": {
+            "values": [
+                "Light", 
+                "Water availability"
+            ]
+        }, 
+        "cmip6.land.energy_balance.number_of_surface_temperatures": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.land.energy_balance.evaporation": {
+            "values": [
+                "Combined"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools": {
+            "values": [
+                4
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.carbon_pools": {
+            "values": [
+                "Leaf, sapwood, heartwood, and root"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins": {
+            "values": [
+                "Other: leaves + stems and roots (leafy + woody)"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_fractions": {
+            "values": [
+                "Function of plant allometry"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.carbon_pools": {
+            "values": [
+                "Above-ground litter pool, below-ground litter pool, intermidiate soil organic matter pool, and slow soil organic matter pool"
+            ]
+        }
+    }
 }

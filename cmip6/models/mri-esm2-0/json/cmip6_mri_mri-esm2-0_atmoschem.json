@@ -5,6 +5,98 @@
     "sourceID": "mri-esm2-0", 
     "topic": "atmoschem", 
     "content": {
+        "cmip6.atmoschem.key_properties.name": {
+            "values": [
+                "MRI-CCM2.1"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.keywords": {
+            "values": [
+                "?"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.overview": {
+            "values": [
+                "The atmoschem model simulates the distribution and evolution of ozone and other trace gases in the troposphere and the middle atmosphere, with using meteorological fields and aerosols\u2019 surface area density received from the interactively coupled atmos and aerosol models.\n\nReferences: Deushi and Shibata2011; Yukimoto et al. 2011; Adachi et al. 2013"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.chemistry_scheme_scope": {
+            "values": [
+                "Stratosphere", 
+                "Troposphere", 
+                "Mesosphere"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.basic_approximations": {
+            "values": [
+                "Ideal gas, Neutral atmosphere"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/mixing ratio for gas"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.number_of_tracers": {
+            "values": [
+                64
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.family_approach": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.software_properties.repository": {
+            "values": [
+                "?"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.software_properties.code_version": {
+            "values": [
+                "ccm2r1esm"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran 90"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.method": {
+            "values": [
+                "Operator splitting"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_advection_timestep": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_physical_timestep": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_chemistry_timestep": {
+            "values": [
+                900
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_alternate_order": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.integrated_timestep": {
+            "values": [
+                1800
+            ]
+        }, 
         "cmip6.atmoschem.grid.name": {
             "values": [
                 "T42L80"
@@ -43,6 +135,230 @@
         "cmip6.atmoschem.grid.resolution.is_adaptive_grid": {
             "values": [
                 false
+            ]
+        }, 
+        "cmip6.atmoschem.transport.overview": {
+            "values": [
+                "Grid-scale transport: \n   A vertically conservative semi-Lagrangian scheme\n\nSubgrid-scale transport/mixing:\n   Vertical mixing due to turbulence\n   Vertical transport due to (deep) convection"
+            ]
+        }, 
+        "cmip6.atmoschem.transport.use_atmospheric_transport": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmoschem.transport.transport_details": {
+            "values": [
+                "Grid-scale transport:\n   A vertically conservative semi-Lagrangian scheme (Shibata and Deushi, 2008b; Yukimoto et al., 2012).\n     \u2192\u3000The atmoschem model uses basically the same scheme as the atmos model does.\n\nSubgrid-scale transport/mixing:\n   Vertical mixing due to turbulence\n     \u2192\u3000Vertical eddy diffusion coefficient recieved online from the turbulance process in the atmos model is used\n            to simulate the vertical turbulent mixing of the long-lived chemical species in the atmoschem model.\n\n   Vertical transport due to (deep) convection\n     \u2192  Upward/downward mass flux and entrainment/detrainment recieved online from the (deep) convection process in the atmos model\n            is used to simulate the vertical convective transport of the long-lived chemical species in the atmoschem model."
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.overview": {
+            "values": [
+                "Surface Emissions\n   Natural emission (Vegetation, Sea surface, and Soil)  : prescribed climatology  \n   Anthropogenic emission (Anthropogenic) : CMIP6 forcing data\n\nAtmospheric Emissions \n   Aircraft : CMIP6 forcing data\n   Biomass burning : CMIP6 forcing data\n   Lightning (NO) : interactive\n\nLower boundary \n   Spatially uniform mixing ratios for GHGs : CMIP6 forcing data\n\nUpper boundary\n   NO molecular fluxes due to Energetic Particle Precipitation (EPP) : CMIP6 forcing data"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources": {
+            "values": [
+                "Vegetation", 
+                "Soil", 
+                "Sea surface", 
+                "Anthropogenic"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.method": {
+            "values": [
+                "Climatology", 
+                "Other: Spatially non-uniform anthropogenic emissions data for CMIP6"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "Vegetation (monthly):\n   C2H6, C2H4, C3H8, C3H6, CH3COCH3, ISOPRENE, C10H16\nSoil (monthly):\n   NO, CO\nSea surface (monthly):\n   CO, C2H6, C2H4, C3H8, C3H6, CH3COCH3, C4H10"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species": {
+            "values": [
+                "Anthropogenic (CMIP6 forcing data):\n   NO, NO2, CO, CH2O, C2H6, C2H4, CH3CHO, C3H8, C3H6, CH3COCH3, C4H10"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.sources": {
+            "values": [
+                "Aircraft", 
+                "Biomass burning", 
+                "Lightning"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.method": {
+            "values": [
+                "Interactive", 
+                "Other: Spatially non-uniform aircraft & biomass burning emissions data for CMIP6"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species": {
+            "values": [
+                "Lightning NO emissions"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species": {
+            "values": [
+                "Biomass burning (CMIP6 forcing data):\n   NO, NO2, CO, CH2O, C2H6, C3H8, C2H4, CH3CHO, C3H6, CH3COCH3, C4H10, ISOPRENE, C10H16 \nAircraft  (CMIP6 forcing data):\n   NO"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "Spatially uniform mixing ratios (CMIP6 forcing data):\n   CH4, N2O, CO2, CCl4, CFC-11, CFC-12, CH3Cl, CH3Br, Halon-1211, Halon-1301"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "EPP-induced fluxes (CMIP6 forcing data):\n   NO"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.overview": {
+            "values": [
+                "The atmoschem model considers 184 gas phase reactions, 59 photolysis reactions, and 16 heterogeneous reactions, in simulating detailed chemistry in the troposphere and the middle atmosphere. It handles 64 long-lived chemical species (which are advected) including 7 chemical families, and 26 short-lived chemical species (which are not advected) as the prognostic variables.\n\nThe chemical ordinal differential equations of the long-lived species are solved by using the multistep implicit-explicit method (Jacobson, 1999; Shibata et al., 2005). Ten peroxy radicals among the short-lived species are integrated in time by the Euler Backward Iterative (EBI) method of Hertel et al. (1993), while the other short-lived species are diagnosed at each time step by using the two methods: a reduced Jacobian method (Sandilands and McConnel, 1997) for members of the chemical families; and a chemical equilibrium (i.e. steady state) method for H, OH, HO2, N and EO.\n\nThe atmoschem model considers two wet deposition processes (rain-out and wash-out). The rain-out is applied for moderately and highly soluble species, while wash-out is used for highly soluble gases. The two wet deposition processes are represented as a first-order loss process by Giorgi and Chameides (1985). The dry deposition is applied for 25 chemical species, and their velocities are diagnosed at each time step following a resistance series parameterization."
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.species": {
+            "values": [
+                "HOx", 
+                "NOy", 
+                "Ox", 
+                "Cly", 
+                "Bry", 
+                "VOCs", 
+                "Isoprene", 
+                "H2O"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions": {
+            "values": [
+                162
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_termolecular_reactions": {
+            "values": [
+                22
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_tropospheric_heterogenous_reactions": {
+            "values": [
+                7
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_stratospheric_heterogenous_reactions": {
+            "values": [
+                9
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_advected_species": {
+            "values": [
+                64
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_steady_state_species": {
+            "values": [
+                5
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.interactive_dry_deposition": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.wet_deposition": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.wet_oxidation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview": {
+            "values": [
+                "6 heterogeneous reactions on two types ( I and II ) of polar stratospheric clouds (PSCs)\n3 heterogeneous reactions on stratospheric sulfate aerosols"
+            ]
+        }, 
+        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.gas_phase_species": {
+            "values": [
+                "Bry", 
+                "Cly", 
+                "NOy"
+            ]
+        }, 
+        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.aerosol_species": {
+            "values": [
+                "NAT (Nitric acid trihydrate)", 
+                "Polar stratospheric ice", 
+                "Sulphate"
+            ]
+        }, 
+        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.number_of_steady_state_species": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.sedimentation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.coagulation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview": {
+            "values": [
+                "7 heterogeneous reactions on tropospheric sulfate, sea salt and cloud particles"
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species": {
+            "values": [
+                "HO2, N2O5, NHO3, HOC2H4O2, HOC3H6O2, isoprene peroxy radical, methaclolein peroxy radical, CH3COO2, H2O2, HOC3H6OOH, beta-hydroxy hydro-peroxide, hydro-peroxide from methaclolein"
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.aerosol_species": {
+            "values": [
+                "Sea salt", 
+                "Sulphate"
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.number_of_steady_state_species": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.interactive_dry_deposition": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.coagulation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.photo_chemistry.overview": {
+            "values": [
+                "59 photolysis reactions\n\nLook-up table method\n   The photolysis rates are calculated at each time step by referring a look-up table under conditions of clear sky. In the look-up table,\n   the photolysis rate of each chemical species is stored as functions of height, overhead column ozone, solar zenith angle, temperature,\n   and surface albedo. Effects of clouds on the photolysis rates are also considered online."
+            ]
+        }, 
+        "cmip6.atmoschem.photo_chemistry.number_of_reactions": {
+            "values": [
+                59
+            ]
+        }, 
+        "cmip6.atmoschem.photo_chemistry.photolysis.method": {
+            "values": [
+                "Online"
+            ]
+        }, 
+        "cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions": {
+            "values": [
+                "Pressure- and temperature-sensitive cross-sections and quantum yields in the photolysis calculations are modified to reflect the modelled conditions. In addition, effects of overhead column ozone, solar zenith angle, surface albedo, and clouds are also considered to reflect the modelled conditions. "
             ]
         }
     }

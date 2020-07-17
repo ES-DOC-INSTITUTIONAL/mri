@@ -5,6 +5,86 @@
     "sourceID": "mri-esm2-0", 
     "topic": "toplevel", 
     "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "MRI-ESM2.0"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.keywords": {
+            "values": [
+                "earth system model"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.year_released": {
+            "values": [
+                2018
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP3_parent": {
+            "values": [
+                "MRI-CGCM2.3.2"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_parent": {
+            "values": [
+                "MRI-CGCM3"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_differences": {
+            "values": [
+                "Atmospheric vertical resolution is increased from L48 to L80. Improved parameterizations associated with clouds, aerosols, aerosol-radiation interaction,  aerosol-cloud interaction, and gravity wave drag. Updated ocean model with finer meridional resolution near the equator and improved subgrid-scale parameterizations."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran90"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.components_structure": {
+            "values": [
+                "atmosphere component MRI-AGCM3.5, ocean-sea ice component MRI.COM4, aerosol component MASINGAR mk-2r4c, and atmospheric chemistry component MRI-CCM2.1 are separate executables and coupled via Scup coupler."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.coupler": {
+            "values": [
+                "Other: Scup"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_double_flux": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_fluxes_calculation_grid": {
+            "values": [
+                "Atmosphere grid"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_relative_winds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.description": {
+            "values": [
+                "First, tuning was done for each component model, and then coupled tuning was done. In the tuning of the atmospheric model, we adjusted a combination of parameters so that errors in the annual mean top of atmosphere (TOA) radiation distribution become sufficiently small in 5-year test runs with present-day sea-surface conditions. The tuning parameters include precipitation conversion rate (\u2018rcn_akdz_rate\u2019, \u2018rcn_ no_prec_height\u2019) and maximum turbulent entrainment\u2013 detrainment rate (\u2018rcn_entdet_rate_2\u2019) in the cumulus convection scheme, mode radius (\u2018rm_seasalt_bin1\u2019) and a number concentration tuning factor (\u2018fac_nssalt_ finer\u2019) of fine-mode sea-salt aerosol, threshold param- eters for diagnosing stratocumulus clouds (\u2018eisthrs\u2019, \u2018critctei\u2019), and a parameter for ice crystals to snow conversion (\u2018raggregat\u2019). In doing the atmospheric tuning, it was sometimes necessary to examine climate sensitivity to ensure that the climate sensitivity did not fall below that of MRI-CGCM3, in which the 20th century temperature rise was underestimated. This means that we weakly constrained the model\u2019s temperature rise in the 20th century. We experienced that \u2018rcn_entdet_rate_2\u2019 has a moderate sensitivity to the climate sensitivity. As reported in Golaz et al. (2013), we found that the aerosol\u2019s forcing in our model also greatly changes in response to the effective radius threshold for cloud- precipitation conversion. However, we did not change the threshold.\nIn the tuning after coupling, we slightly modified \u2018critctei\u2019 and \u2018fac_nssalt_finer\u2019, which are insensitive to the climate sensitivity and the aerosol\u2019s radiative forcing, for tuning the global-mean TOA net radiation and reducing model drift under preindustrial conditions. In a preliminary historical experiment, the model simulated too large a variability in the equatorial Pacific. Since reducing \u2018rcn_entdet_rate_2\u2019 was found to have an effect to suppress the variability, we se- lected a slightly lower value for the parameter (that slightly increases the climate sensitivity) and re-tuned for the preindustrial spin-up by adjusting \u2018critctei\u2019 and \u2018fac_nssalt_finer\u2019."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "TOA outgoing shortwave, TOA outgoing longwave, TOA net radiation"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "RMSE of TOA outgoing shortwave, RMSE of TOA outgoing longwave, RMSE of TOA net radiation"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance": {
+            "values": [
+                "Water conservations in the components and the full system are guaranteed."
+            ]
+        }, 
         "cmip6.toplevel.radiative_forcings.overview": {
             "values": [
                 "GHG (CO2, CH4, N2O, CFC11, CFC12, HCFC22), aerosols (sulfate, OC, BC), aerosol-radiation interaction, aerosol-cloud interaction for liquid and ice clouds, land-use, stratospheric and tropospheric ozone, stratospheric aerosols, solar (radiative and particle forcings)"

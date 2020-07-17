@@ -5,6 +5,119 @@
     "sourceID": "mri-esm2-0", 
     "topic": "seaice", 
     "content": {
+        "cmip6.seaice.key_properties.name": {
+            "values": [
+                "MRI.COM ver. 4.4"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.keywords": {
+            "values": [
+                "EVP rheology, 1-layer ice, thickness categories"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.overview": {
+            "values": [
+                "The sea ice model of MRI.COM is based on the Los Alamos sea ice model (CICE; Hunke and Lipscomb, 2010): thermodynamics of Mellor and Kantha (1989) with one-layer ice (Semtner, 1976); dynamics of the elastic-viscous-plastic rheology (Hunke and Dukowicz, 1997) and ridging scheme by Thorndike et al. (1975). Five thickness categories are allowed within a grid cell (Lipscomb, 2001). See Tsujino et al. (2017) for details."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.variables.prognostic": {
+            "values": [
+                "Sea ice concentration", 
+                "Sea ice thickness", 
+                "Snow depth", 
+                "Sea ice enthalpy", 
+                "Sea ice u-velocity", 
+                "Sea ice v-velocity", 
+                "Internal ice stress"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point": {
+            "values": [
+                "Other: Tf = -0.0543 S where Tf is the freezing point in deg C and S is salinity in psu."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.name": {
+            "values": [
+                "GONDOLA_100"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "100km"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                "=360*362"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.description": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.target": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.simulations": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.metrics_used": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.ice_strength": {
+            "values": [
+                27500
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.snow_conductivity": {
+            "values": [
+                0.31
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.ice_thickness_in_leads": {
+            "values": [
+                0.1
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.additional_parameters": {
+            "values": [
+                "See 5.1.1.3 for albedos."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.missing_processes": {
+            "values": [
+                "Ocean surface tilt, melt pond, black carbon, tide, snow blowing"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.description": {
+            "values": [
+                "Energy, mass and salt budgets are closed without any artificial correction in the sea ice model. Salinities for sea ice and snow are set to 4 and 0, respectively."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.properties": {
+            "values": [
+                "Energy", 
+                "Mass", 
+                "Salt"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.was_flux_correction_used": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.corrected_conserved_prognostic_variables": {
+            "values": [
+                "N/A"
+            ]
+        }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
                 "Ocean grid"
@@ -68,6 +181,166 @@
         "cmip6.seaice.grid.snow_on_seaice.snow_fraction": {
             "values": [
                 "Snow fraction: f=h_snow/(h_snow+h_snowpatch), where h_snow is snow thickness and h_snowpatch =0.02 m, following CICE."
+            ]
+        }, 
+        "cmip6.seaice.dynamics.overview": {
+            "values": [
+                "Elastic-viscous-plastic  rheology (Hunke and Dukowicz); evolution of thickness distribution due to ridging and other mechanical processes (Thorndike et al., 1975)"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.horizontal_transport": {
+            "values": [
+                "Other: Multidimensional positive definite advection transport algorism (MPDATA; Smolarkiewicz, 1984)"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.transport_in_thickness_space": {
+            "values": [
+                "Other: linear remapping"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.ice_strength_formulation": {
+            "values": [
+                "Hibler 1979"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.redistribution": {
+            "values": [
+                "Ridging"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.rheology": {
+            "values": [
+                "Elastic-visco-plastic"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.enthalpy_formulation": {
+            "values": [
+                "Pure ice latent and sensible heat"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.thermal_conductivity": {
+            "values": [
+                "Saline ice"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.heat_diffusion": {
+            "values": [
+                "Conduction and radiation heat fluxes"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
+            "values": [
+                "Thermal Fixed Salinity"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.fixed_salinity_value": {
+            "values": [
+                4
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.heat_content_of_precipitation": {
+            "values": [
+                "Precipitation on sea ice falls as snow, thus has the energy corresponding to latent heat of fusion."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
+            "values": [
+                "Sea ice is formed when sea surface temperature (temperature of the top layer of the ocean model) is below freezing point. The heat needed to raise the temperature to the freezing point is regarded as the latent heat release through the sea ice formation."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.ice_vertical_growth_and_melt": {
+            "values": [
+                "Growth and melt of the sea ice ocurrs at top or bottom of the sea ice, i.e. the sea ice develops vertically through thermodynamics."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.frazil_ice": {
+            "values": [
+                "Freezing at open ocean creates sea ice with a minimum thickness of 0.1 m. No sophisticated frazil ice process is considered."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.has_multiple_sea_ice_salinities": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.sea_ice_salinity_thermal_impacts": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.mass_transport.salinity_type": {
+            "values": [
+                "Constant"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.mass_transport.constant_salinity_value": {
+            "values": [
+                4
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.thermodynamics.salinity_type": {
+            "values": [
+                "Constant"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.thermodynamics.constant_salinity_value": {
+            "values": [
+                4
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.ice_thickness_distribution.representation": {
+            "values": [
+                "Explicit"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.ice_floe_size_distribution.representation": {
+            "values": [
+                "Other: Ice floe size is not represented."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.are_included": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.has_snow_aging": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.has_snow_ice_formation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.snow_ice_formation_scheme": {
+            "values": [
+                "The part of snow that is below freeboard becomes sea ice. Salt of the new snow ice is taken from the first layer of the ocean."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.redistribution": {
+            "values": [
+                "No impact. Snow cover is diagnozed from snow depth (see 2.1.1.3)."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.heat_diffusion": {
+            "values": [
+                "Single-layered heat diffusion"
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.overview": {
+            "values": [
+                "The formulation of sea-ice surface albedo is fundamentally similar to that in the Los Alamos sea ice model CICE (Hunke and Lipscomb, 2001). Both the ice albedo and the snow albedo are estimated. The sea-ice surface albedo is determined as an average weighted by the snow cover percentage, which depends on the snow amount. However, the parameterization of Aoki and Tanaka (2008), who account for the albedo decline due to pollution by aerosol deposition, is applied to the estimation of snow albedo. Moreover, the effect of permeation on albedo is taken into account for both ice and snow for visible and near-infrared wavelengths, respectively."
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.surface_albedo": {
+            "values": [
+                "Other: It depends on amounts (depths) of ice or snow, temperature, and pollution due to aerosol deposition. see also additional information. this is calculated on atmospheric grid."
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.ice_radiation_transmission": {
+            "values": [
+                "Exponential attenuation"
             ]
         }
     }
