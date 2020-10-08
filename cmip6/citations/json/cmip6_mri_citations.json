@@ -23,6 +23,13 @@
             "bibtex": null, 
             "url": null, 
             "long_name": null
+        }, 
+        {
+            "mnemonic": "Yukimoto et al. (2019)", 
+            "doi": "doi:10.2151/jmsj.2019-051", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
         }
     ]
 }
